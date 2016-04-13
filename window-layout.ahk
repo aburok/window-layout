@@ -66,32 +66,32 @@ return
 ^#q:: ToggleWindowPosition(Top_Left_Half
     . Next . Top_Left_OneThird
     , "Q")
-^#w:: ToggleWindowPosition(Top_Half
++^#w:: ToggleWindowPosition(Top_Half
     . Next . Top_Center_OneThird
     , "W")
-^#e:: ToggleWindowPosition(Top_Right_Corner
++^#e:: ToggleWindowPosition(Top_Right_Corner
     . Next . Top_Right_OneThird
     , "E")
 
 ; A S D
-^#a:: ToggleWindowPosition(Left_Half
++^#a:: ToggleWindowPosition(Left_Half
     . Next . "0, 0, 0.3333, 1"
     . Next . "0, 0, 0.6666, 1"
     , "A")
-^#s:: SetWindowPositionTo("0, 0, 1, 1") ; Maximize window
-^#d:: ToggleWindowPosition(Right_Half
++^#s:: SetWindowPositionTo("0, 0, 1, 1") ; Maximize window
++^#d:: ToggleWindowPosition(Right_Half
     . Next . "0.3333, 0, 0.6666, 1"
     . Next . "0.6666, 0, 0.3333, 1"
     , "D")
 
 ; Z X C
-^#z:: ToggleWindowPosition(Bottom_Left_Corner
++^#z:: ToggleWindowPosition(Bottom_Left_Corner
     . Next . Bottom_Left_OneThird
     , "Z")
-^#x:: ToggleWindowPosition(Bottom_Half
++^#x:: ToggleWindowPosition(Bottom_Half
     . Next . Bottom_Center_OneThird
     , "X")
-^#c:: ToggleWindowPosition(Bottom_Right_Corner
++^#c:: ToggleWindowPosition(Bottom_Right_Corner
     . Next . Bottom_Right_OneThird
     , "C")
 
